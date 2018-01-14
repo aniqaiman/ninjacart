@@ -34,7 +34,7 @@
                {{ HTML::image('img/user8.jpg', 'User Image',  array('class' => 'user-image')) }}
               
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="nav navbar-nav">Admin</span>
+              <span class="hidden-ms">Admin</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
