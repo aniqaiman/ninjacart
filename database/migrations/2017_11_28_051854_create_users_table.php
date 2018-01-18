@@ -12,12 +12,10 @@ class CreateUsersTable extends Migration
         {
             $table->increments('user_id');
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('password');
             $table->longtext('address');
-            $table->string('billinginfo');
-            $table->string('credicardinfo');
-            $table->string('phonenumber')->unique();
+            $table->string('phonenumber');
             $table->string('profilepic');
             $table->timestamps();
         });    

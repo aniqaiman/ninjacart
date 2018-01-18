@@ -15,3 +15,9 @@ Route::get('/', ['as' => 'welcome','uses' =>
 	function () {
 	return view('welcome');
 }]);
+
+Route::post('/seller', ['as'=>'createSeller', 'uses'=>'SellerController@createSeller']);
+Route::get('/seller',['as'=>'seller','uses'=>'SellerController@getSeller']);
+Route::get('/editSeller/{seller_id}',['as'=>'editSeller','uses'=>'SellerController@editSeller']);
+Route::post('/updateSeller',['as'=>'updateSeller','uses'=>'SellerController@updateSeller']);
+Route::delete('/seller/{seller_id}',['as'=>'deleteSeller','uses'=>'SellerController@deleteSeller']);

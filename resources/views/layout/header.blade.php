@@ -31,7 +31,7 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-               {{ HTML::image('img/user8.jpg', 'User Image',  array('class' => 'user-image')) }}
+               {{ HTML::image('img/user3.jpg', 'User Image',  array('class' => 'user-image')) }}
               
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-ms">Admin</span>
@@ -39,7 +39,7 @@
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-              {{ HTML::image('img/user8.jpg', 'User Image',  array('class' => 'img-circle')) }}
+              {{ HTML::image('img/user3.jpg', 'User Image',  array('class' => 'img-circle')) }}
 
                 <p>
                   Admin - Web Developer

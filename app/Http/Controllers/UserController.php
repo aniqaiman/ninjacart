@@ -22,8 +22,6 @@ class UserController extends Controller
             $users->email = $request->email;
             $users->password = $request->password;
             $users->address = $request->address;
-            $users->billinginfo = $request->billinginfo;
-            $users->creditcardinfo = $request->creditcardinfo;
             $users->phonenumber = $request->phonenumber;
             $users->profilepic = $path;
             $users->save();
